@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <style>
+      
+        .topnav {
+            margin-top: 20px;
+  background-color: #683550;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:rgb(255, 254, 254);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: rgb(57, 55, 55);
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:rgb(73, 39, 39);
+  color: rgb(185, 180, 183);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #63183b;
+  color: rgb(237, 237, 237);
+}
+div{
+background-image: url(./assets/fast\ food\ imag.jpeg);
+border: 2px solid black;
+background-repeat: no-repeat;
+background-size: 1700px;
+
+}
+div h1,label,input{
+  margin: 5px;
+ cursor: pointer;
+    color: white;
+   
+}
+div button{
+  border: 2px solid black;
+  color: #efe6eb;
+  background-color: #5e4552;
+    border-radius: 10%;
+    padding:5px 20px;
+    cursor: pointer;
+}
+div button:hover{
+  background-color:rgb(73, 39, 39);
+  color: rgb(185, 180, 183);
+}
+div textarea{
+
+  color: white;
+  border: 2px solid rgb(216, 147, 147);
+  border-radius: 5%;
+  background-color: transparent;
+  padding-left: 15px 15px;
+  text-align: center;
+}
+div input{
+  background-color: transparent;
+  border: 2px solid rgb(174, 125, 125);
+  padding: 5px;
+  border-radius: 10%;
+}
+#copyright{
+  background-color: rgb(36, 26, 38);
+  color: white;
+  padding: 1px;
+}
+</style>
+</head>
+<body>
+    <input type="image" src="./assets/logo.png"  style="width:2%;font-style: Helvetica;" ><br> <b></b>Arslan's Cuisine
+    <center>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="timing.html">Timings</a>
+        <a href="contect us.html">contect Us</a>
+      </div>
+    
+    <div>
+    <h1 >Contact US</h1>
+    <form>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter Name"><br>
+        <label for="lname">Email:</label>
+        <input type="email" id="lname" name="lname" placeholder="Enter Email"><br>
+        <textarea id="subject" name="subject" placeholder="Enter your Message" style="height: 121px; width: 476px;"></textarea><br>
+        <button type="button" style="margin-bottom: 15%;">Send Message</button><br>
+    </div>
+    
+        <p id="copyright">copyright &#169; Arslan's Cuisine.</p>
+    </form>
+</center>
+
+</body>
+</html>
